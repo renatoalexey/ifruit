@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#e6ffff">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/margem"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="Legenda das épocas" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TableRow>
+            <LinearLayout
+            android:background="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_width="54dp"
+            android:layout_height="34dp">
+                <View
+                    android:background="@color/forte"
+                    android:layout_margin="2dp"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"/>
+            </LinearLayout>
+            <TextView
+                android:paddingTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"
+                android:text="Forte" />
+
+            <LinearLayout
+                android:background="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_width="54dp"
+                android:layout_height="34dp">
+
+                <View
+                    android:background="@color/media"
+                    android:layout_margin="2dp"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"
+                android:text="Média" />
+
+            <LinearLayout
+                android:background="#000000"
+                android:layout_marginLeft="15dp"
+                android:layout_width="54dp"
+                android:layout_height="34dp">
+
+                <View
+                    android:background="@color/fraca"
+                    android:layout_margin="2dp"
+                    android:layout_width="50dp"
+                    android:layout_height="30dp"/>
+            </LinearLayout>
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:textSize="15dp"
+                android:text="Fraca" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#9900cc"
+        android:layout_marginLeft="@dimen/margem"
+        android:layout_marginRight="@dimen/margem"
+        android:layout_marginTop="@dimen/margem"/>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@android:id/list"
+        android:layout_weight="1"
+        android:layout_margin="20dp">
+
+    </ListView>
+
+   <!-- <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listaFrutas"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="10dp"
+        android:textSize="20sp">
+
+
+    </TextView>-->
+
+</LinearLayout>

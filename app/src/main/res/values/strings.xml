@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">iFruit</string>
+    <string name="app_label">Busca</string>
+    <string name="search_hint">buscar fruta</string>
+    <string name="search">buscar</string>
+    <string name="action_settings">config</string>
+</resources>
