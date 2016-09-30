@@ -8,10 +8,11 @@ import java.util.List;
  * Created by renato on 27/05/16.
  */
 public enum Fruta {
-    ABACATE ("Abacate", Arrays.asList(1, 2, 3, 4), Arrays.asList(0, 5, 6, 7, 8, 9) ),
-    ABACAXI ("Abacaxi", Arrays.asList(11), Arrays.asList(0, 2, 9, 10) ),
-    ABACAXI_HAVAI  ("Abacaxi Havaí ", Arrays.asList(0, 11), Arrays.asList(1, 2, 10) ),
-    ABACAXI_PEROLA  ("Abacaxi Pérola ", Arrays.asList(2, 8, 9, 10, 11), Arrays.asList(3, 4, 7) ),
+    ABACATE ("Abacate Breda", Arrays.asList(8, 9, 10), Arrays.asList(11) ),
+    ABACATE_GEADA ("Abacate Geada", Arrays.asList(0, 1), null ),
+    ABACATE_FORTUNA ("Abacate Fortuna", Arrays.asList(2, 3, 4, 5, 6, 7), null ),
+    ABACAXI_HAVAI  ("Abacaxi Havaí ", Arrays.asList(0, 11), Arrays.asList(1, 10) ),
+    ABACAXI_PEROLA  ("Abacaxi Pérola ", Arrays.asList(10, 11), Arrays.asList(2, 3, 4, 9) ),
     ABIU ("Abiu", Arrays.asList(7, 8), Arrays.asList(0, 1, 2, 3, 4, 5, 6, 9) ),
     ACEROLA ("Acerola", Arrays.asList(9, 10), Arrays.asList(0, 1, 2, 3, 4, 11) ),
     AMEIXA_ESTRANGEIRA ("Ameixa Estrangeira", Arrays.asList(1, 2, 3, 11), Arrays.asList(0, 9) ),
