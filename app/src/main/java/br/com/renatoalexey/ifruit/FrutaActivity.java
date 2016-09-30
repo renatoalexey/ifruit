@@ -42,6 +42,7 @@ public class FrutaActivity extends AppCompatActivity {
         frutaNome.setText(fruta.getNome());
 
         String uri = "@drawable/" + fruta.name().toLowerCase();
+
         int imageResource = getResources().getIdentifier(uri, null, getPackageName());
         Drawable res = ResourcesCompat.getDrawable(getResources(), imageResource, null);
         frutaImagem.setImageDrawable(res);
@@ -49,6 +50,7 @@ public class FrutaActivity extends AppCompatActivity {
         for(int i = 0; i < fruta.getMeses().size(); i ++) {
             Integer mes = fruta.getMeses().get(i);
             switch (mes) {
+
                 case (0):
                     findViewById(R.id.janeiro).setBackgroundColor(Color.parseColor("#99FF99"));
                     break;
