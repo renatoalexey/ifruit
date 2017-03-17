@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="br.com.renatoalexey.ifruit">
+    package="br.com.renatoalexey.ifruit"
+    android:versionCode="1"
+    android:versionName="1.0">
 
     <application android:allowBackup="true"
         android:icon="@drawable/logo"

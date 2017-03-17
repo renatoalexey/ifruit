@@ -12,7 +12,7 @@
         android:layout_marginTop="@dimen/margem"
         android:textSize="17dp"
         android:textStyle="bold"
-        android:text="Legenda das épocas" />
+        android:text="Legenda da sazonalidade" />
 
     <TableLayout
         android:layout_width="match_parent"
